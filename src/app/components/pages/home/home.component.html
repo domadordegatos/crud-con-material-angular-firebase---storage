@@ -1,0 +1,11 @@
+<div class="container" *ngIf="posts$ | async as posts">
+    <mat-card class="post-card" *ngFor="let post of posts">
+        <app-post [post]="post"></app-post>
+        <!-- {{post.tagsPost | json}} -->
+    </mat-card>
+    <ng-template #loading>
+        <div class="container-spinner">
+            <mat-spinner></mat-spinner>
+        </div>
+    </ng-template>
+</div>

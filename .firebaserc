@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crud-material-68bac": {
+      "hosting": {
+        "crud-imagen": [
+          "crud-material-68bac"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crud-material-68bac"
+  }
+}
